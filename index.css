@@ -33,6 +33,8 @@ header{
     display: flex;
     justify-content: space-around;
     padding-bottom: 4%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -43,6 +45,7 @@ header{
     place-items: center;
     position: relative;
     border-radius: 10px;
+    margin: 16px;
 }
 
 .card::before{
@@ -69,9 +72,9 @@ header{
 
 .foto{
     width: 100%;
-    height: 240px;
+    height: 250px;
 }
-/* falta ver a questão de lagura por porcentagem */
+
 .foto img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -82,7 +85,6 @@ header{
 
 .descrição{
     width: 100%;
-    height: 120px;
 }
 
 .name{
